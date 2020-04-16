@@ -1,0 +1,56 @@
+
+.outerContainer {
+  box-sizing: border-box;
+    display: flexbox;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    padding: 1%;
+    justify-content: space-between;
+    background-color: #1A1A1D;
+  }
+  
+  .container {
+    margin-top: .5%;
+    display: flex;
+    float: left;
+    height: 92%;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #FFFFFF;
+    border-radius: 1em;
+    width: 60%;
+    margin-right: .5%;
+  }
+.rightPanel{
+  float: right;
+  margin-top: 1%;
+  width: 39%;
+  height: 92%;
+  border-radius:1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color:#1a1a1d;
+  text-decoration-color: green;
+}
+.list{
+  justify-content: left;
+  padding: 2em;
+  width: 100%;
+  max-height: 95%;
+  overflow: auto;
+  color: #2979ff;
+  box-sizing: border-box;
+}
+
+.liItem{
+  width: 70%;
+  margin: 2px auto;
+  font-weight: bold;
+  font-size: medium;
+  color: #2979ff;
+  align-self: flex-start;
+  justify-self: start;
+  font-family: -apple-system, Roboto, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}

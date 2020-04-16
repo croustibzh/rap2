@@ -1,0 +1,38 @@
+div.infoBar {
+    box-sizing: border-box;
+    display: inline-flex;
+    width: 100%;
+    flex-direction: row;
+    height: 5em;
+    padding: 5px;
+    vertical-align: middle;
+    align-items: center;
+    background-color:dodgerblue;
+    border-top-left-radius: 1em; 
+    border-top-right-radius: 1em; 
+}
+
+
+div.leftInnerContainer {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    color: aliceblue;
+}
+
+div.rightInnerContainer { 
+    display: flex;
+    float: right;
+    margin-right: 1.5em;
+    width: 5%;
+}
+
+a {
+    padding: 5px;
+}
+img {
+    height: 100%;
+}

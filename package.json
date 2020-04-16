@@ -1,0 +1,25 @@
+{
+  "name": "rap2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm i && npm run dev",
+    "server": "cd backend && npm i && npm start",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client": "cd client && npm i && npm start",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@material-ui/core": "^4.9.10",
+    "@material-ui/icons": "^4.9.1",
+    "concurrency": "^0.1.4",
+    "hookrouter": "^1.2.3",
+    "react-scroll-to-bottom": "^1.3.2"
+  },
+  "devDependencies": {
+    "concurrently": "^5.1.0"
+  }
+}
